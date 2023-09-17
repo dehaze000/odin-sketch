@@ -6,7 +6,8 @@ function gridSetup(n) {
     for(i=1; i<= (n * n); i++) {
         const gridUnit = document.createElement('div');
         gridUnit.classList.add('grid-unit',`grid-unit-${i}`);
-        gridUnit.addEventListener('mouseover', hoverClass) 
+        gridUnit.addEventListener('mouseover', hoverClass)
+        gridUnit.style.height = `${800/n}px`;
         container.appendChild(gridUnit);      
     }
 

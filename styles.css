@@ -14,7 +14,6 @@
 }
 
 .grid-unit {
-    height: 200px;
     outline: solid 2px black;
     outline-offset: -2px;
 }
