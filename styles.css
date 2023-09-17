@@ -8,13 +8,15 @@
     height: 800px;
     display: flex;
     flex-flow: wrap;
+    flex-direction: column;
     justify-content: space-around;
     margin: auto;
 }
 
 .grid-unit {
     height: 200px;
-    width: 200px;
+    outline: solid 2px black;
+    outline-offset: -2px;
 }
 
 .hover {
