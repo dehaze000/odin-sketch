@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-container {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.grid-unit {
+    height: 200px;
+    width: 200px;
+}
+
+.hover {
+    background-color: yellow;
+}
+
+.button {
+    margin: auto;
+}
